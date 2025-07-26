@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Салат Оливье</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-white font-sans">
+    <!-- Header -->
+    <header class="border-b text-sm text-gray-700">
+        <div class="container mx-auto flex justify-between items-center py-2 px-4">
+            <div>
+                <span class="mr-4">Для юридических лиц</span>
+                <span class="mr-4">О компании</span>
+                <span class="mr-4">Оплата и доставка</span>
+                <span>Акции и бонусные баллы</span>
+            </div>
+            <div>
+                <span class="mr-4">+7 909 993 89 70</span>
+                <span>+7 495 120-21-50</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="border-b py-3">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-start md:items-center justify-between space-y-3 md:space-y-0">
+                <div class="flex items-center space-x-6">
+                    <img src="./rasm bolim/Logo.svg" alt="Logo" class="h-6">
+                    <button class="bg-orange-500 text-white px-4 py-1 rounded">Каталог</button>
+                    <div class="text-xs">
+                        <p>Пн-Пт 08:00-20:00</p>
+                        <p>Сб-Вс 09:00-19:00</p>
+                    </div>
+                </div>
+                <div class="flex flex-col w-full md:w-auto">
+                    <input type="text" placeholder="Искать товары"
+                        class="border px-2 py-1 rounded text-sm w-full md:w-64">
+                    <!-- New Full-Width Navigation Under Input -->
+                    <div class="mt-2">
+                        <nav class="flex flex-wrap gap-4 text-sm font-medium text-gray-700 justify-center">
+                            <a href="#" class="hover:text-orange-500">Фруктовые наборы</a>
+                            <a href="#" class="hover:text-orange-500">Фруктовой</a>
+                            <a href="#" class="hover:text-orange-500">Хит</a>
+                            <a href="#" class="hover:text-orange-500">Скидки</a>
+                            <a href="#" class="hover:text-orange-500">Новинки</a>
+                            <a href="#" class="hover:text-orange-500">Рекомендуем</a>
+                            <a href="#" class="hover:text-orange-500">Популярное</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="text-sm text-gray-500 py-4 px-4 container mx-auto">
+        Главная > Бизнес-ланчи > Салаты > Салат Оливье с красной рыбой и икрой тобико
+    </div>
+
+    <!-- Title -->
+    <div class="container mx-auto px-4">
+        <h1 class="text-3xl font-bold mb-6"><span class="border-b-4 border-yellow-400">САЛАТ ОЛИВЬЕ С КРАСНОЙ РЫБОЙ
+            </span><br><span class="border-b-4 border-yellow-400">И ИКРОЙ ТОБИКО</span></h1>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Image -->
+        <div>
+            <img src="./rasm bolim/IMAGE (50).svg" alt="Salat" class="rounded-lg shadow-lg">
+            <div class="flex space-x-2 mt-4 overflow-x-auto">
+                <img src="./rasm bolim/IMAGE (51).svg" class="w-16 h-16 border rounded">
+                <img src="./rasm bolim/IMAGE (52).svg" class="w-16 h-16 border rounded">
+                <img src="./rasm bolim/IMAGE (4).png" class="w-16 h-16 border rounded">
+                <img src="./rasm bolim/IMAGE (5).png" class="w-16 h-16 border rounded">
+                <img src="./rasm bolim/IMAGE (7).png" class="w-16 h-16 border rounded">
+                <img src="./rasm bolim/IMAGE (8).png" class="w-16 h-16 border rounded">
+            </div>
+            <br>
+        </div>
+
+        <!-- Details -->
+        <div>
+            <div class="flex items-center space-x-4 text-green-600">
+                <span>★★★★★</span>
+                <span>7 отзывов</span>
+                <span class="text-gray-400">/</span>
+                <a href="#" class="underline text-gray-600">Написать отзыв</a>
+            </div>
+            <p class="text-sm text-gray-700 mt-4">Натуральная рубленая говяжья котлета подается на свежевыпечённой булке
+                с кунжутом...</p>
+            <div class="mt-4 text-sm">
+                <p><strong>Вес:</strong> 780 г</p>
+                <p class="mt-1"><strong>Размер порции:</strong> <button class="border px-2 py-1 mr-1">120
+                        г</button><button class="border px-2 py-1">250 г</button></p>
+            </div>
+            <div class="mt-4 space-y-2">
+                <div class="flex border rounded items-center overflow-hidden w-max">
+                    <button class="px-3 py-1">-</button>
+                    <input type="text" value="100" class="w-12 text-center border-l border-r">
+                    <button class="px-3 py-1">+</button>
+                </div>
+                <div class="text-2xl font-bold text-green-700">
+                    1 890 ₽ <span class="line-through text-gray-400 text-sm ml-2">2 000 ₽</span>
+                </div>
+            </div>
+            <div class="mt-4 flex space-x-4">
+                <button class="bg-green-500 text-white px-4 py-2 rounded">Заказать в 1 клик</button>
+                <button class="bg-orange-500 text-white px-4 py-2 rounded">Добавить в корзину</button>
+            </div>
+            <p class="text-xs text-gray-400 mt-2">Блюдо может содержать следы глютена, орехов, молочного белка...</p>
+        </div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="max-w-4xl mx-auto bg-white shadow-md rounded-lg overflow-hidden mt-10">
+        <div class="flex border-b text-sm font-medium text-gray-600">
+            <button class="px-4 py-2 bg-green-800 text-white">Состав</button>
+            <button class="px-4 py-2 hover:bg-gray-100">Есть в фуршетных сетах</button>
+            <button class="px-4 py-2 hover:bg-gray-100">Составляющие</button>
+            <button class="px-4 py-2 hover:bg-gray-100">Отзывы (7)</button>
+        </div>
+        <div class="p-4 text-gray-800 text-sm leading-relaxed">
+            Картофель, морковь, огурцы соленые, горошек зеленый, яйцо, кета с/с, икра черная тобико, майонез.
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="fixed top-6 right-6 space-y-4 hidden lg:block">
+        <div class="flex items-center space-x-2">
+            <span class="w-4 h-4 bg-green-600 rounded-full"></span>
+            <span class="text-sm">Оплата</span>
+        </div>
+        <div class="flex items-center space-x-2">
+            <span class="w-4 h-4 bg-green-600 rounded-full"></span>
+            <span class="text-sm">Доставка</span>
+        </div>
+        <div class="flex items-center space-x-2">
+            <span class="w-4 h-4 bg-green-600 rounded-full"></span>
+            <span class="text-sm">Перезвоните мне</span>
+        </div>
+        <div class="flex items-center space-x-2">
+            <span class="w-4 h-4 bg-green-600 rounded-full"></span>
+            <span class="text-sm">FAQ</span>
+        </div>
+    </div>
+
+    <!-- Cards -->
+    <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4 md:px-20 pb-12 pt-10">
+        <!-- Card 1 -->
+        <div class="border rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+            <img src="./rasm bolim/sushi.svg" alt="Салат" class="w-full h-48 object-cover">
+            <div class="p-4 space-y-2">
+                <h3 class="text-lg font-semibold">Салат с курицей</h3>
+                <p class="text-sm text-gray-600">Курица, зелень, помидоры, майонез</p>
+                <p class="font-bold text-xl">27 000 сум</p>
+                <button class="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600">В корзину</button>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="border rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+            <img src="./rasm bolim/sushi2.svg" alt="Салат" class="w-full h-48 object-cover">
+            <div class="p-4 space-y-2">
+                <h3 class="text-lg font-semibold">Салат "Цезарь"</h3>
+                <p class="text-sm text-gray-600">Курица, салат, сухари, сыр</p>
+                <p class="font-bold text-xl">31 000 сум</p>
+                <button class="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600">В корзину</button>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="border rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+            <img src="./rasm bolim/sushilar.svg" alt="Салат" class="w-full h-48 object-cover">
+            <div class="p-4 space-y-2">
+                <h3 class="text-lg font-semibold">Овощной салат</h3>
+                <p class="text-sm text-gray-600">Огурцы, помидоры, лук, зелень</p>
+                <p class="font-bold text-xl">18 000 сум</p>
+                <button class="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600">В корзину</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
